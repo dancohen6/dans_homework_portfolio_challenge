@@ -54,20 +54,10 @@ body {
     background-color: #98c1d9;
 }
 
-#navbar {
-    color: #98c1d9;
-}
-
 #profile-photo {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-}
-
-#footer-nav {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
 }
 
 #contact-me {
@@ -131,4 +121,21 @@ a {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+#footer-nav {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+#footer {
+    background-color: #2a607c;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-weight: bold;
 }
