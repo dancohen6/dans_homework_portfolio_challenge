@@ -141,15 +141,26 @@ p {
 
 /* PHOTOS */
 
-.image {
-    position: relative;
-    }
-    
- figcaption {
-    top: 50%;
-    bottom: 50%;
-    left: 40%;
-    }
+article {
+  position: relative;
+  text-align: center;
+  color: #2a607c;
+  font-size: xx-large;
+}
+
+.centered1 {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 #image-line-1 {
     display: flex;
