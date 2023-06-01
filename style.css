@@ -1,4 +1,5 @@
 /* RESET */
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -152,14 +153,7 @@ article {
   font-size: xx-large;
 }
 
-.centered1 {
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.centered2 {
+.centered1, .centered2 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -183,48 +177,14 @@ article {
     display: block;
 }
 
-#image-line-2 {
+#image-line-2, #image-line-3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
 }
 
-#image2 {
-    width: 350px;
-    height: 250px;
-    border: 5px solid #ee6c4d;
-    border-radius: 5%;
-    max-width: 100%;
-    display: block;
-}
-
-#image3 {
-    width: 350px;
-    height: 250px;
-    border: 5px solid #ee6c4d;
-    border-radius: 5%;
-    max-width: 100%;
-    display: block;
-}
-
-#image-line-3 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px;
-}
-
-#image4 {
-    width: 350px;
-    height: 250px;
-    border: 5px solid #ee6c4d;
-    border-radius: 5%;
-    max-width: 100%;
-    display: block;
-}
-
-#image5 {
+#image2, #image3, #image4, #image5 {
     width: 350px;
     height: 250px;
     border: 5px solid #ee6c4d;
